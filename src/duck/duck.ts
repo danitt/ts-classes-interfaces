@@ -4,7 +4,7 @@ import { quackableInterface } from './behaviours/quack'
 export default class Duck {
   public fly
   public quack
-  protected displayInfo: string = 'Nothing to display!'
+  public displayInfo: string = 'Nothing to display!'
 
   constructor(
     flyBehaviour: flyableInterface,
